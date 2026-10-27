@@ -1,0 +1,14 @@
+{
+  "name": "ai-university-chatbot-project",
+  "version": "1.0.0",
+  "description": "AI-Powered Chatbot for University Student Support (Full-stack MERN with Vite + Tailwind)",
+  "scripts": {
+    "server": "cd server && node server.js",
+    "client": "cd client && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
